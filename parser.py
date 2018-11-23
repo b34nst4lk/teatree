@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
 from pprint import pprint as prettyprint
-from config import ns0
+from config import ns0, file_path
 
 def pprint(string):
     # prints out the node in an indented fashion
@@ -10,7 +10,6 @@ def gen_tag(string):
     # helper for generating strings for searching tags
     return '%s%s' % (ns0, string)
 
-file_path = '../TM Uplift/process/A4.11_HOTES_New_Installation_Process.xml'
 
 new_installation = ET.parse(file_path)
 
