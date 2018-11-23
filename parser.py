@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 from pprint import pprint as prettyprint
 from config import ns0, file_path
+from writer import *
 
 def pprint(string):
     # prints out the node in an indented fashion
@@ -17,4 +18,5 @@ root = new_installation.getroot()
 activities = root.findall(gen_tag('activity'))
 activity_names = [activity.attrib['name'] for activity in activities]
 print(len(activities))
-pprint(ET.tostring(activities[0]))
+#pprint(ET.tostring(activities[0]))
+writeXML(activities)

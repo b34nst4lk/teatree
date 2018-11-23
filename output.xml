@@ -1,0 +1,835 @@
+<model xmlns:ns0="http://www.metasolv.com/OMS/OrderModel/2002/06/25"><ns0:activity name="CAMS_Whitelist_Sub-process">
+      <ns0:task>CAMS_Whitelist_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A5.1_BAS_Update_PTT_Billing_Account_Process">
+      <ns0:task>A5.1_BAS_Update_PTT_Billing_Account_Process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A5.1_Check_BAS_Flag">
+      <ns0:task>A5.1_Check_BAS_Flag</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A5.1_Check_BAS_Flag_2">
+      <ns0:task>A5.1_Check_BAS_Flag</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A5.1_Set_Service_Activation_Date_Process">
+      <ns0:task>A5.1_Set_Service_Activation_Date_Process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A5.1_Traveling_On-site_Wait_Sub-process">
+      <ns0:task>A5.1_Traveling_On-site_Wait_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A7.9_Due_to_wrong_address_">
+      <ns0:task>A7.9_Due_to_wrong_address_</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A7.9_Installation_Related_Process_with_Charge_Deferment_Subprocess">
+      <ns0:task>A7.9_Installation_Related_Process_with_Charge_Deferment_Subprocess</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A7.9_Installation_Related_Process_with_Charge_Deferment_Wait_Subprocess">
+      <ns0:task>A7.9_Installation_Related_Process_with_Charge_Deferment_Wait_Subprocess</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A7.9_Installation_Update_Customer_Address_Subprocess">
+      <ns0:task>A7.9_Installation_Update_Customer_Address_Subprocess</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A7.9_Traveling_On-Site_Related_Subprocess">
+      <ns0:task>A7.9_Traveling_On-Site_Related_Subprocess</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A7.9_Verify_to_Proceed_Wait_Subprocess">
+      <ns0:task>A7.9_Verify_to_Proceed_Wait_Subprocess</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Activate_Access_Additional_VOBB_ATA_Sub-process">
+      <ns0:task>Activate_Access_Additional_VOBB_ATA_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="_.367_Activate_Access_Additional_Voice_Sub-process">
+      <ns0:task>Activate_Access_Additional_VOBB_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="_.364_Activate_Access_HSI_Sub-process">
+      <ns0:task>Activate_Access_HSI_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="_.365_Activate_Access_IPTV_Sub-process">
+      <ns0:task>Activate_Access_IPTV_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="_.366_Activate_Access_Voice_Sub-process">
+      <ns0:task>Activate_Access_VOBB_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Activate_Centrex_Sub-process">
+      <ns0:task>Activate_Centrex_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Activate_Hunting_Line_Sub-process">
+      <ns0:task>Activate_Hunting_Line_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="AP_Installation_Sub-process">
+      <ns0:task>AP_Installation_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="B3.0_AP_Installation_Create_Sub-process">
+      <ns0:task>B3.0_AP_Installation_Create_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="B3.0_AP_Installation_Wait_Sub-process">
+      <ns0:task>B3.0_AP_Installation_Wait_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="B3.0_Check_Order_Service_Type_HSBA">
+      <ns0:task>B3.0_Check_Order_Service_Type_HSBA</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="B3.0_Check_SWIFT_Fulfillment_Flag">
+      <ns0:task>B3.0_Check_SWIFT_Fulfillment_Flag</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="B3.0_Check_SWIFT_Fulfillment_Flag_AP_Installation">
+      <ns0:task>B3.0_Check_SWIFT_Fulfillment_Flag</ns0:task>
+      <ns0:description>AP Installation</ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="B3.0_MS365_Service_Provision_Sub-process">
+      <ns0:task>B3.0_MS365_Service_Provision_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="B3.0_Perform_Service_Testing_for_New_Install_Create_Sub-process">
+      <ns0:task>B3.0_Perform_Service_Testing_for_New_Install_Create_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="B3.0_Perform_Service_Testing_for_New_Install_Wait_-_PONR_Sub-process">
+      <ns0:task>B3.0_Perform_Service_Testing_for_New_Install_Wait_-_PONR_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="SBL_Order_Info_Send_Flag">
+      <ns0:task>SBL_Order_Info_Send_Flag</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="SBL_Perform_Installation_Create">
+      <ns0:task>SBL_Perform_Installation_Create</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="SBL_SWIFT_Slotting_Activity_In_Progress_Create">
+      <ns0:task>SBL_SWIFT_Slotting_Activity_In_Progress_Create</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="SBL_Traveling_On-site_Create">
+      <ns0:task>SBL_Traveling_On-site_Create</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="SBL_Verify_to_Proceed_Create">
+      <ns0:task>SBL_Verify_to_Proceed_Create</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="SWIFT_Integration_Subprocess_SWIFT">
+      <ns0:task>B3.0_SWIFT_Integration_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="B4.0_Discount_End_Date_Sub-process">
+      <ns0:task>B4.0_Discount_End_Date_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="B4.0_Set_Channel_Activation_Modified_Date_Sub-process">
+      <ns0:task>B4.0_Set_Channel_Activation_Modified_Date_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Charge_Deferment_Fee">
+      <ns0:task>Charge_Deferment_Fee</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Check_CCS_Pilot_Flag">
+      <ns0:task>Check_CCS_Pilot_Flag</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Check_Product_Name">
+      <ns0:task>Check_Product_Name</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Check_SWIFT___ABS_Slotting_">
+      <ns0:task>Check_SWIFT___ABS_Slotting_</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Check_Terminate_POTS">
+      <ns0:task>Check_Terminate_POTS</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Check_Terminate_Streamyx">
+      <ns0:task>Check_Terminate_Streamyx</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Check_Triple_Play_Bundle">
+      <ns0:task>Check_Triple_Play_Bundle</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Concatenate_for_Comments_Sub-process">
+      <ns0:task>Concatenate_for_Comments_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Confirm_Appointment">
+      <ns0:task>Confirm_Appointment</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Confirm_Appointment1">
+      <ns0:task>Confirm_Appointment</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Create_Billing_Account">
+      <ns0:task>Create_Billing_Account</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Create_Customer_Account">
+      <ns0:task>Create_Customer_Account</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Create_Design___Assign_and_Activate_Activity">
+      <ns0:task>Create_Design___Assign_and_Activate_Activity</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Default_Error_Description">
+      <ns0:task>Default_Error_Description</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Exception_B3.0_SBL_Order_Info_Send_Flag">
+      <ns0:task>Exception_B3.0_SBL_Order_Info_Send_Flag</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Exception_B3.0_SBL_Perform_Installation_Create">
+      <ns0:task>Exception_B3.0_SBL_Perform_Installation_Create</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Exception_B3.0_SBL_SWIFT_Slotting_Activity_In_Progress_Create">
+      <ns0:task>Exception_B3.0_SBL_SWIFT_Slotting_Activity_In_Progress_Create</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Exception_B3.0_SBL_Traveling_On-site_Create">
+      <ns0:task>Exception_B3.0_SBL_Traveling_On-site_Create</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Exception_B3.0_SBL_Verify_to_Proceed_Create">
+      <ns0:task>Exception_B3.0_SBL_Verify_to_Proceed_Create</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Exception_Charge_Deferment_Fee">
+      <ns0:task>Exception_Charge_Deferment_Fee</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Exception_Confirm_Appointment">
+      <ns0:task>Exception_Confirm_Appointment</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Exception_Confirm_Appointment1">
+      <ns0:task>Exception_Confirm_Appointment</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Exception_Create_Billing_Account">
+      <ns0:task>Exception_Create_Billing_Account</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Exception_Create_Customer_Account">
+      <ns0:task>Exception_Create_Customer_Account</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Exception_Create_Design___Assign_and_Activate_Activity">
+      <ns0:task>Exception_Create_Design___Assign_and_Activate_Activity</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Exception_R3_Publish_Billing_Profile">
+      <ns0:task>Exception_Publish_Billing_Profile</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Exception_Reschedule_Appointment1">
+      <ns0:task>Exception_Reschedule_Appointment</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Exception_Reschedule_Appointment_Change_Address">
+      <ns0:task>Exception_Reschedule_Appointment</ns0:task>
+      <ns0:description>Change Address</ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Exception_Update_Design___Assign_and_Activate_Activity_to_Complete">
+      <ns0:task>Exception_Update_Design___Assign_and_Activate_Activity_to_Complete</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Exception_Verify_to_Proceed">
+      <ns0:task>Exception_Verify_to_Proceed</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Fail_due_to__Customer__">
+      <ns0:task>Fail_due_to__Customer__</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="_.1a_Get_NIS_Details">
+      <ns0:task>Get_NIS_Details_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Get_NIS_Flag_Sub-process">
+      <ns0:task>Get_NIS_Flag_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Manage_Installation_Return_Sub-Process">
+      <ns0:task>Manage_Installation_Return_Sub-Process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Manage_Installation_Return_Sub-Process_Change_Address">
+      <ns0:task>Manage_Installation_Return_Sub-Process</ns0:task>
+      <ns0:description>Change Address</ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="NPS_Commission_Sub-process">
+      <ns0:task>NPS_Commission_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="null_task">
+      <ns0:task>null_task</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ALL</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="null_task1">
+      <ns0:task>null_task</ns0:task>
+      <ns0:description>Null task for travel</ns0:description>
+      <ns0:inputType>ALL</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="null_task2">
+      <ns0:task>null_task</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ALL</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="null_task3">
+      <ns0:task>null_task</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ALL</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="null_task4">
+      <ns0:task>null_task</ns0:task>
+      <ns0:description>before survey</ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="null_task_AP_Installation">
+      <ns0:task>null_task</ns0:task>
+      <ns0:description>AP Installation</ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="null_task_AP_Installation_SWIFT">
+      <ns0:task>null_task</ns0:task>
+      <ns0:description>Null task AP Installation SWIFT</ns0:description>
+      <ns0:inputType>ALL</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="null_task_Pre-Set_VDSL_Flag_Checkpoint_1">
+      <ns0:task>null_task</ns0:task>
+      <ns0:description>Null task Pre-Set VDSL Flag Checkpoint 1</ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="null_task_Pre-Set_VDSL_Flag_Checkpoint_2">
+      <ns0:task>null_task</ns0:task>
+      <ns0:description>Null task Pre-Set VDSL Flag Checkpoint 2</ns0:description>
+      <ns0:inputType>ALL</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="null_task_Pre-Set_VDSL_Flag_Checkpoint_SWIFT">
+      <ns0:task>null_task</ns0:task>
+      <ns0:description>Null task Pre-Set VDSL Flag Checkpoint SWIFT</ns0:description>
+      <ns0:inputType>ALL</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="null_task_Wait_Change_Address">
+      <ns0:task>null_task</ns0:task>
+      <ns0:description>Wait Change Address</ns0:description>
+      <ns0:inputType>ALL</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="null_task_Wait_IPTV_Installation">
+      <ns0:task>null_task</ns0:task>
+      <ns0:description>Wait IPTV Installation</ns0:description>
+      <ns0:inputType>ALL</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="null_task__Null_task_Pre-Set_VDSL_Flag_Checkpoint_Non_SWIFT">
+      <ns0:task>null_task</ns0:task>
+      <ns0:description> Null task Pre-Set VDSL Flag Checkpoint Non SWIFT</ns0:description>
+      <ns0:inputType>ALL</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="null_task_bas">
+      <ns0:task>null_task</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Perform_Service_Testing_Sub-process_for_New_Install_Order_-_PONR">
+      <ns0:task>Perform_Service_Testing_Sub-process_for_New_Install_Order_-_PONR</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="R3_CCS_-_Update_CCS_Information_Process_-_New_Install_Sub-process">
+      <ns0:task>R3_CCS_-_Update_CCS_Information_Process_-_New_Install_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="R3_Check_Fix_Flag_">
+      <ns0:task>R3_Check_Fix_Flag_</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="R3_Check_Test_Account_Flag">
+      <ns0:task>R3_Check_Test_Account_Flag</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Provision_Web_Hosting_Process">
+      <ns0:task>Provision_Web_Hosting_Process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Publish_Billing_Profile">
+      <ns0:task>Publish_Billing_Profile</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="R3_Publish_Service_Profile_BTU_Sub-process">
+      <ns0:task>R3_Publish_Service_Profile_BTU_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="R3_Set_Order_to_Pre-Completed_Process">
+      <ns0:task>R3_Set_Order_to_Pre-Completed_Process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="R3_Set_Service_Date_-_AccountDiscount_Sub-process">
+      <ns0:task>R3_Set_Service_Date_-_AccountDiscount_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="R3_Set_Service_Start_Date_Process">
+      <ns0:task>R3_Set_Service_Start_Date_Process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Set_Test_Account_Flag_Sub-process">
+      <ns0:task>Set_Test_Account_Flag_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="R3_SIP_-_Update_Publish_Profile_IDD_Sub-process">
+      <ns0:task>R3_SIP_-_Update_Publish_Profile_IDD_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Test_Account_Process">
+      <ns0:task>Test_Account_Process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="R3_Update_Line_Item_Process">
+      <ns0:task>R3_Update_Line_Item_Process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="R3_Update_Service_Testing_Sub-process">
+      <ns0:task>R3_Update_Service_Testing_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Reappointment_Charges_Process">
+      <ns0:task>Reappointment_Charges_Process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Reschedule_Appointment">
+      <ns0:task>Reschedule_Appointment</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Reschedule_Appointment_Change_Address">
+      <ns0:task>Reschedule_Appointment</ns0:task>
+      <ns0:description>Change Address</ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Set_Additional_VOBB_Flag_Process">
+      <ns0:task>Set_Additional_VOBB_Flag_Process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Set_Installation_Message_Process">
+      <ns0:task>Set_Installation_Message_Process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Set_Jeopardy_Flag_to_End">
+      <ns0:task>Set_Jeopardy_Flag_to_End</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Set_Jeopardy_Flag_to_Start">
+      <ns0:task>Set_Jeopardy_Flag_to_Start</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Set_Non-Triple_Play_Bundle_Service_to_Processing_Process">
+      <ns0:task>Set_Non-Triple_Play_Services_to_Processing_Process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Set_Order_to_Complete_Process">
+      <ns0:task>Set_Order_to_Complete_Process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ALL</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Set_Order_to_Complete_Process2">
+      <ns0:task>Set_Order_to_Complete_Process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Set_Order_to_PONR_Process">
+      <ns0:task>Set_Order_to_PONR_Process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Set_Order_to_Processing_Process">
+      <ns0:task>Set_Order_to_Processing_Process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Set_Service_Modified_Date_Sub-proces">
+      <ns0:task>Set_Service_Modified_Date_Sub-proces</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Set_Triple_Play_Services_to_Processing_Process">
+      <ns0:task>Set_Triple_Play_Services_to_Processing_Process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Set_VDSL_Flag_Activate_Action_Code_Sub-process">
+      <ns0:task>Set_VDSL_Flag_Activate_Action_Code_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="_.9_Streamyx_Upgrade_to_HSBB_-_Provision_Sub-Process">
+      <ns0:task>Streamyx_Upgrade_to_HSBB_Sub-Process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="SWIFT_Integration_Subprocess">
+      <ns0:task>SWIFT_Integration_Subprocess</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Update_Billing_Account_Status_Process">
+      <ns0:task>Update_Billing_Account_Status_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Update_Billing_Account_Status_Sub-process">
+      <ns0:task>Update_Billing_Account_Status_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Update_Billing_New_Install_-_Account_Discount_Sub-process">
+      <ns0:task>Update_Billing_New_Install_-_Account_Discount_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Update_Billing_Webhosting_New_Install">
+      <ns0:task>Update_Billing_Webhosting_New_Install</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ALL</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Update_Design___Assign_and_Activate_Activity_to_Complete">
+      <ns0:task>Update_Design___Assign_Activity_to_Complete</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="VDSL_Close_Service_Order">
+      <ns0:task>VDSL_Close_Service_Order</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="_.38_VDSL_Activation">
+      <ns0:task>VDSL_NIS_Activation_Sub-process</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="Verify_to_Proceed">
+      <ns0:task>Verify_to_Proceed</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A4.11_HOTES_Installation_Subprocess">
+      <ns0:task>A4.11_HOTES_Installation_Subprocess</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A4.11_Design___Assign_Network_-_HOTES_Subprocess">
+      <ns0:task>A4.11_Design___Assign_Network_-_HOTES_Subprocess</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A4.11_Retrieve_Network_Details_-_HOTES_Subprocess">
+      <ns0:task>A4.11_Retrieve_Network_Details_-_HOTES_Subprocess</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A4.11_Activate_Triple_Play_Bundle_Products_Subprocess">
+      <ns0:task>A4.11_Activate_Triple_Play_Bundle_Products_Subprocess</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A4.11_Update_Network_Inventory_-_HOTES_Subprocess">
+      <ns0:task>A4.11_Update_Network_Inventory_-_HOTES_Subprocess</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A4.11_Activate_Access_Common_-_HOTES_Subprocess">
+      <ns0:task>A4.11_Activate_Access_Common_-_HOTES_Subprocess</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A4.11_Activate_Access_CCS_-_HOTES_Subprocess">
+      <ns0:task>A4.11_Activate_Access_CCS_-_HOTES_Subprocess</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A4.11_Set_HOTES_Internet_Service_to_Processing_Subprocess">
+      <ns0:task>A4.11_Set_HOTES_Internet_Service_to_Processing_Subprocess</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A4.11_Set_HOTES_Internet_Service_to_Completed_Subprocess">
+      <ns0:task>A4.11_Set_HOTES_Internet_Service_to_Completed_Subprocess</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A4.11_Update_Billing_New_Install_Subprocess">
+      <ns0:task>A4.11_Update_Billing_New_Install_Subprocess</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A4.11_Check_HOTES_Flag_">
+      <ns0:task>A4.11_Check_HOTES_Flag_</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A4.11_Activate_VAS_Service_Subprocess">
+      <ns0:task>A4.11_Activate_VAS_Service_Subprocess</ns0:task>
+      <ns0:description> </ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   <ns0:activity name="A4.11_Check_HOTES_Flag_After_Installation">
+      <ns0:task>A4.11_Check_HOTES_Flag_</ns0:task>
+      <ns0:description>After Installation</ns0:description>
+      <ns0:inputType>ANY</ns0:inputType>
+      <ns0:processHistorySummary>false</ns0:processHistorySummary>
+   </ns0:activity>
+   </model>
