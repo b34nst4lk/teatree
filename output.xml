@@ -1,0 +1,113 @@
+<model xmlns:ns0="http://www.metasolv.com/OMS/OrderModel/2002/06/25" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><ns0:rule id="19479" name="A5.1_Check_BAS_Flag">
+         <ns0:description>A5.1 Check BAS Flag</ns0:description>
+         <ns0:expression xsi:type="structuredExpressionType">
+            <ns0:term>
+               <ns0:operand xsi:type="orderDataOperandType">
+                  <ns0:orderData>/order_details/bas_flag</ns0:orderData>
+               </ns0:operand>
+               <ns0:equals />
+               <ns0:operand xsi:type="literalOperandType">
+                  <ns0:value type="text">Y</ns0:value>
+               </ns0:operand>
+            </ns0:term>
+         </ns0:expression>
+      </ns0:rule>
+      <ns0:rule id="15260" name="B3.0_Check_Order_Service_Type_HSBA">
+         <ns0:description>B3.0 Check Order Service Type HSBA</ns0:description>
+         <ns0:expression xsi:type="structuredExpressionType">
+            <ns0:term>
+               <ns0:operand xsi:type="orderDataOperandType">
+                  <ns0:orderData>/order_details/order_service_type</ns0:orderData>
+               </ns0:operand>
+               <ns0:equals />
+               <ns0:operand xsi:type="literalOperandType">
+                  <ns0:value type="text">HSBA</ns0:value>
+               </ns0:operand>
+            </ns0:term>
+         </ns0:expression>
+      </ns0:rule>
+      <ns0:rule id="15261" name="B3.0_Check_SWIFT_Fulfillment_Flag">
+         <ns0:description>B3.0 Check SWIFT Fulfillment Flag</ns0:description>
+         <ns0:expression xsi:type="structuredExpressionType">
+            <ns0:term>
+               <ns0:operand xsi:type="orderDataOperandType">
+                  <ns0:orderData>/order_details/swift_fulfillment_flag</ns0:orderData>
+               </ns0:operand>
+               <ns0:equals />
+               <ns0:operand xsi:type="literalOperandType">
+                  <ns0:value type="text">Y</ns0:value>
+               </ns0:operand>
+            </ns0:term>
+         </ns0:expression>
+      </ns0:rule>
+      <ns0:rule id="15303" name="Check_CCS_Pilot_Flag">
+         <ns0:description>Check CCS Pilot Flag</ns0:description>
+         <ns0:expression xsi:type="structuredExpressionType">
+            <ns0:term>
+               <ns0:operand xsi:type="orderDataOperandType">
+                  <ns0:orderData>/order_details/ccs_pilot_flag</ns0:orderData>
+               </ns0:operand>
+               <ns0:equals />
+               <ns0:operand xsi:type="literalOperandType">
+                  <ns0:value type="text">Y</ns0:value>
+               </ns0:operand>
+            </ns0:term>
+         </ns0:expression>
+      </ns0:rule>
+      <ns0:rule id="15368" name="Check_Product_Name">
+         <ns0:description>Check Product Name</ns0:description>
+         <ns0:expression xsi:type="structuredExpressionType">
+            <ns0:term>
+               <ns0:operand xsi:type="orderDataOperandType">
+                  <ns0:orderData>/prov/service/product_name</ns0:orderData>
+               </ns0:operand>
+               <ns0:equals />
+               <ns0:operand xsi:type="literalOperandType">
+                  <ns0:value type="text">Reappointment Charges</ns0:value>
+               </ns0:operand>
+            </ns0:term>
+         </ns0:expression>
+      </ns0:rule>
+      <ns0:rule id="15372" name="Check_SWIFT___ABS_Slotting_">
+         <ns0:description>Check SWIFT / ABS Slotting?</ns0:description>
+         <ns0:expression xsi:type="structuredExpressionType">
+            <ns0:term>
+               <ns0:operand xsi:type="orderDataOperandType">
+                  <ns0:orderData>/order_details/swift_flag</ns0:orderData>
+               </ns0:operand>
+               <ns0:equals />
+               <ns0:operand xsi:type="literalOperandType">
+                  <ns0:value type="text">Y</ns0:value>
+               </ns0:operand>
+            </ns0:term>
+         </ns0:expression>
+      </ns0:rule>
+      <ns0:rule id="15421" name="Fail_due_to__Customer__">
+         <ns0:description>Fail due to 'Customer'?</ns0:description>
+         <ns0:expression xsi:type="structuredExpressionType">
+            <ns0:term>
+               <ns0:operand xsi:type="orderDataOperandType">
+                  <ns0:orderData>/prov/service/installation_error_message</ns0:orderData>
+               </ns0:operand>
+               <ns0:equals />
+               <ns0:operand xsi:type="literalOperandType">
+                  <ns0:value type="text">Due to Customer</ns0:value>
+               </ns0:operand>
+            </ns0:term>
+         </ns0:expression>
+      </ns0:rule>
+      <ns0:rule id="15447" name="R3_Check_Fix_Flag_">
+         <ns0:description>R3 Check Fix Flag?</ns0:description>
+         <ns0:expression xsi:type="structuredExpressionType">
+            <ns0:term>
+               <ns0:operand xsi:type="orderDataOperandType">
+                  <ns0:orderData>/order_details/r3_fix_flag</ns0:orderData>
+               </ns0:operand>
+               <ns0:equals />
+               <ns0:operand xsi:type="literalOperandType">
+                  <ns0:value type="text">Y</ns0:value>
+               </ns0:operand>
+            </ns0:term>
+         </ns0:expression>
+      </ns0:rule>
+      </model>
